@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Salaries</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body id="top">
+<div class="wrapper firstRow">
+    <div id="topbar" class="horizontal blocky">
+        <div>
+            <ul class="nospace">
+                <li id="kanyeQuote"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="backgroundLayer" style="">
+    <div class="wrapper secondRow">
+        <header id="header" class="horizontal blocky">
+            <div id="logo" class="float_left">
+                <h1 class="websitelogo"><a href="../index.html">Salaries</a></h1>
+            </div>
+            <nav id="navlinkbar" class="fl_right">
+                <ul class="blocky">
+                    <li ><a href="../index.html">Home</a></li>
+                    <li class="active"><a href="compensation.html" >Add your salary</a></li>
+                    <li><a href="salaries.html">Check salaries</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+</div>
+
+<div class="wrapper thirdRow">
+    <article class="horizontal container blocky">
+        <div class="halfWidth first form-container">
+            <form id="salaryForm" name="salaryForm" method="post">
+                <ul class="form-ul">
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name..." name="name" class="salary-input" required>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email..." name="email" class="salary-input"  required>
+                    </li>
+                    <li>
+                        <label for="age">Age</label>
+                        <input type="number" id="age" placeholder="Age..." name="age" class="salary-input"  required>
+                    </li>
+                    <li>
+                        <label for="yoe">YOE</label>
+                        <input type="number" id="yoe" placeholder="Years of experience...." name="yoe" class="salary-input"  required>
+                    </li>
+                    <li>
+                        <label for="salary">Salary</label>
+                        <input type="number" id="salary" placeholder="Salary...." name="salary" class="salary-input"  required>
+                    </li>
+                    <li>
+                        <button type="submit" class="btn" id="submitSalary">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </article>
+</div>
+
+<div class="wrapper footer">
+    <div id="copyright" class="horizontal blocky">
+        <p class="float_left">Copyright &copy; 2021 - Salaries</p>
+    </div>
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>

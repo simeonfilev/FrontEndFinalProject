@@ -1,0 +1,440 @@
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.float_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+#kanyeQuote {
+    font-weight: bold;
+}
+
+.websitelogo {
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+.nospace {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.websitelogo::first-letter, .websitelogo span {
+    font-weight: 700;
+}
+
+.horizontal {
+    margin: 0 auto;
+    display: block;
+}
+
+.halfWidth, .thirdWidth, .quarterWidth {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 3%;
+    list-style: none;
+}
+
+.mainPicText {
+    color: #fcfcfc;
+    font-weight: bold;
+}
+
+.btn, button.btn {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 8px 25px 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+
+#generateNewSalaryTableBtn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    color: black;
+    text-align: center;
+}
+
+#generateNewSalaryTableBtn:hover {
+    background-color: #2d9932;
+    color: white;
+}
+
+.justifyMid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button.btn {
+    cursor: pointer;
+}
+
+
+#topbar {
+    padding: 20px 0;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+#topbar ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#topbar ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+#header #logo {
+    margin: 22px 0 0 0;
+}
+
+#pageintro {
+    padding: 200px 0 270px;
+}
+
+#pageintro article {
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#pageintro article p:first-of-type {
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+#pageintro .heading {
+    font-size: 5rem;
+}
+
+#pageintro footer {
+    margin-top: 50px;
+}
+
+#pageintro footer .btn {
+    padding: 25px 35px 27px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+.container {
+    padding: 80px 0;
+}
+
+.sectiontitle {
+    display: block;
+    max-width: 55%;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.sectiontitle * {
+    margin: 0;
+}
+
+#companies li {
+    margin-bottom: 50px;
+}
+
+#companies li:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+
+.backgroundLayer {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/wp2661490.jpg");
+}
+
+
+#companies li:nth-child(4n+1) {
+    margin-left: 0;
+    clear: left;
+}
+
+#companies article {
+    display: block;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#navlinkbar ul {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navlinkbar li {
+    display: inline-block;
+    position: relative;
+}
+
+
+h1, h2, h3, h4, h5, h6, .heading {
+    margin: 0 0 20px 0;
+    font-size: 1.3rem;
+    line-height: initial;
+}
+
+.halfWidth {
+    width: 50%;
+}
+
+.thirdWidth {
+    width: 30%; /* it's a weird number, but it works :/ */
+}
+
+.quarterWidth {
+    width: 21%; /* it's a weird number, but it works :/ */
+}
+
+.inline * {
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container * {
+    box-sizing: border-box;
+}
+
+.form-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-ul {
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+
+.form-ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-ul > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form-ul li label {
+    padding: 8px;
+    font-weight: 400;
+    letter-spacing: .09em;
+}
+
+.form-ul > li > label {
+    flex: 1 0 120px;
+    max-width: 220px;
+}
+
+#copyright {
+    padding: 20px 0;
+}
+
+#copyright * {
+    margin: 0;
+    padding: 0;
+}
+
+#navlinkbar ul {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navlinkbar li {
+    display: inline-block;
+    position: relative;
+    margin: 3px 15px 0 0;
+    padding: 0;
+}
+
+#navlinkbar li a {
+    display: block;
+    padding: 15px 0;
+}
+
+.blocky::before, .blocky::after{
+    display: flex;
+    content: "";
+}
+
+.blocky, .blocky::after{
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+table, th {
+    table-layout: auto;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 5px 8px;
+}
+
+td {
+    border-width: 0 1px;
+}
+
+body {
+    color: #A8A8A8;
+    background-color: #202020;
+}
+
+a {
+    color: #2dea4c;
+}
+
+a:active, a:focus {
+    background: transparent !important;
+}
+
+.overlay {
+    color: #FFFFFF;
+    background-color: inherit;
+}
+
+.overlay::after {
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn, .btn.inverse:hover {
+    color: #FFFFFF;
+    background-color: #14a92f;
+    border-color: #0e9248;
+}
+
+.btn:hover, .btn.inverse {
+    color: inherit;
+    background-color: transparent;
+    border-color: inherit;
+}
+
+.firstRow {
+    color: #A8A8A8;
+    background-color: #202020;
+}
+
+.secondRow {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, .55);
+}
+
+.thirdRow {
+    color: #474747;
+    background-color: #F4F4F4;
+}
+
+.FourthRow {
+    color: #474747;
+    background-color: #FFFFFF;
+}
+
+.footer, .footer a {
+    color: #A8A8A8;
+    background-color: #202020;
+}
+
+
+#header #logo a {
+    color: inherit;
+}
+
+#pageintro {
+    color: #FFFFFF;
+}
+
+#introblocks {
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, .1);
+}
+
+#companies article {
+    color: #474747;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+#navlinkbar li a {
+    color: inherit;
+}
+
+#navlinkbar .active a, #navlinkbar a:hover, #navlinkbar li:hover > a {
+    color: #16ac66;
+    background-color: inherit;
+}
+
+tr {
+    color: inherit;
+    background-color: #FBFBFB;
+}
+
+tr:nth-child(even) {
+    color: inherit;
+    background-color: #F7F7F7;
+}
+
+@media screen and (min-width: 1140px) {
+    .horizontal {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1140px) {
+    .horizontal {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .horizontal {
+        max-width: 90%;
+    }
+    
+    #copyright p:first-of-type {
+        margin-bottom: 10px;
+    }
+
+}
